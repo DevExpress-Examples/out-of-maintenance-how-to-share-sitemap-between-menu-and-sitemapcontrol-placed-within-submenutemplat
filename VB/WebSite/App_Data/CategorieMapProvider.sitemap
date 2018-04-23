@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode title="RootCategory">
+    <siteMapNode title="Subcategory A" url="javascript:void(0)">
+      <siteMapNode title="Subcategory AA">
+        <siteMapNode title="Site Map Node AAA" />
+        <siteMapNode title="Site Map Node AAB"  />
+        <siteMapNode title="Site Map Node AAC"  />
+      </siteMapNode>
+      <siteMapNode title="Subcategory AB">
+        <siteMapNode title="Site Map Node ABA" />
+        <siteMapNode title="Site Map Node ABB" />
+      </siteMapNode>
+      <siteMapNode title="Subcategory AC">
+        <siteMapNode title="Site Map Node ACA" />
+      </siteMapNode>
+      <siteMapNode title="Subcategory AD">
+        <siteMapNode title="Site Map Node ADA" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Subcategory B" url="javascript:void(1)">
+      <siteMapNode title="Subcategory BA">
+        <siteMapNode title="Site Map Node BAA" />
+      </siteMapNode>
+      <siteMapNode title="Subcategory BB">
+        <siteMapNode title="Site Map Node BBA" />
+        <siteMapNode title="Site Map Node BBB" />
+      </siteMapNode>
+      <siteMapNode title="Subcategory BC">
+        <siteMapNode title="Site Map Node BCA" />
+        <siteMapNode title="Site Map Node BCB"  />
+        <siteMapNode title="Site Map Node BCD"/>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Subcategory C" url="javascript:void(2)">
+      <siteMapNode title="Subcategory CA">
+        <siteMapNode title="Site Map Node CAA" />
+        <siteMapNode title="Site Map Node CBA" />
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
