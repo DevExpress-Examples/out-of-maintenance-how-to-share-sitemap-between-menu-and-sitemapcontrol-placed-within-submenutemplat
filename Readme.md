@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to share SiteMap between Menu and SiteMapControl placed within SubMenuTemplate
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e3622/)**
+<!-- run online end -->
 
 
 <p>This example illustrates how to share the same SiteMap between ASPxMenu and ASPxSiteMapControl placed to show information from different SiteMap node levels. Here are steps you need to execute:</p><p>- Place ASPxSiteMapControl within <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxMenuASPxMenuBase_SubMenuTemplatetopic"><u>ASPxMenu.SubMenuTemplate</u></a>;<br />
