@@ -24,8 +24,7 @@ Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Web
-Imports DevExpress.Web.ASPxMenu
-Imports DevExpress.Web.ASPxSiteMapControl
+Imports DevExpress.Web
 
 
 Partial Public Class _Default
@@ -41,7 +40,7 @@ Partial Public Class _Default
     End Function
     Protected Sub ASPxSiteMapControl1_DataBinding(ByVal sender As Object, ByVal e As EventArgs)
         Dim sitemapControl As ASPxSiteMapControl = TryCast(sender, ASPxSiteMapControl)
-        Dim container As DevExpress.Web.ASPxMenu.MenuItemTemplateContainer = TryCast(sitemapControl.NamingContainer, DevExpress.Web.ASPxMenu.MenuItemTemplateContainer)
+        Dim container As DevExpress.Web.MenuItemTemplateContainer = TryCast(sitemapControl.NamingContainer, DevExpress.Web.MenuItemTemplateContainer)
         TryCast(sitemapControl.DataSource, ASPxSiteMapDataSource).StartingNodeUrl = container.Item.NavigateUrl
     End Sub
 End Class
